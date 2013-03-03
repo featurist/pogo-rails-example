@@ -1,4 +1,4 @@
-== PogoScript Rails Example
+## PogoScript Rails Example
 
 An example of Rails 4 with the PogoScript compiler registered in the asset pipeline.
 
