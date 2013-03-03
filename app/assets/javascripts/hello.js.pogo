@@ -2,4 +2,7 @@
 // All this logic will automatically be available in application.js.
 // You can use PogoScript in this file: http://pogoscript.org/
 
-alert 'hello, pogo!'
+say hello to (subject) =
+    alert "Hello, #(subject)!"
+
+say hello to "PogoScript"
