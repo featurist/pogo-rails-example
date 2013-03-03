@@ -80,6 +80,14 @@ GIT
       sprockets (~> 2.8)
 
 GIT
+  remote: git@github.com:featurist/pogo-rails.git
+  revision: 06e066c32f7d83709cfc8229c2857a6324c4c704
+  specs:
+    pogo-rails (4.0.0.beta)
+      pogo-script (>= 0.0.2)
+      railties (>= 4.0.0.beta, < 5.0)
+
+GIT
   remote: git@github.com:featurist/sprockets.git
   revision: 51585cdfbe55d325d05374d6c7c252877bbb666c
   branch: pogoscript
@@ -124,10 +132,7 @@ GEM
     mime-types (1.21)
     minitest (4.6.2)
     multi_json (1.6.1)
-    pogo-rails (4.0.0.beta)
-      pogo-script (>= 0.0.1)
-      railties (>= 4.0.0.beta, < 5.0)
-    pogo-script (0.0.1)
+    pogo-script (0.0.2)
       execjs
       pogo-script-source
     pogo-script-source (0.3.1)
@@ -162,7 +167,7 @@ DEPENDENCIES
   coffee-rails!
   jbuilder (~> 1.0.1)
   jquery-rails
-  pogo-rails
+  pogo-rails!
   rails!
   sass-rails!
   sprockets!

@@ -41,4 +41,4 @@ gem 'jbuilder', '~> 1.0.1'
 
 gem 'tilt', :git => 'git@github.com:featurist/tilt.git', :branch => 'pogoscript'
 gem 'sprockets', :git => 'git@github.com:featurist/sprockets.git', :branch => 'pogoscript' 
-gem 'pogo-rails'
+gem 'pogo-rails', :git => 'git@github.com:featurist/pogo-rails.git'
